@@ -6,6 +6,8 @@ filters:
   - shinylive
 ---
 
+<!-- make sure to install shinylive with `quarto add quarto-ext/shinylive` -->
+
 ## Study Summary
 
 The following is a summary of the RNA-Seq analysis of airway smooth muscle cells as reported by @himes_rna-seq_2014.

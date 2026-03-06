@@ -2,6 +2,12 @@
 
 2026-03-05
 
+An [interactive Shiny
+document](https://019cc3b2-b33e-22fa-2fbb-0460a97eaf6a.share.connect.posit.cloud/)
+can be viewed on Posit Connect Cloud, or [this serverless deployment
+using Shinylive and GitHub
+pages](https://bifx547-26.github.io/airway-report-johnsonra/Airway_shinylive.html).
+
 ## Study Summary
 
 The following is a summary of the RNA-Seq analysis of airway smooth
