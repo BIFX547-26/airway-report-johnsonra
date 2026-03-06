@@ -6,41 +6,22 @@ client_version = '1.34.0'
 created_at = ''
 dismissed_at = ''
 type = 'quarto-shiny'
-configuration_name = 'Interactive Report- Airway Dat-K3L4'
-id = '019cc0ac-ab4f-4459-40ab-84bf80bd8169'
-dashboard_url = 'https://connect.posit.cloud/randyjohnson/content/019cc0ac-ab4f-4459-40ab-84bf80bd8169'
-direct_url = 'https://019cc0ac-ab4f-4459-40ab-84bf80bd8169.share.connect.posit.cloud'
-logs_url = 'https://connect.posit.cloud/randyjohnson/content/019cc0ac-ab4f-4459-40ab-84bf80bd8169/history'
-deployed_at = '2026-03-05T20:12:02-05:00'
-bundle_id = '019cc0b3-883c-e4a1-a984-73720d4b2df7'
+configuration_name = 'Interactive Report- Airway Dat-BJRV'
+id = '019cc3b2-b33e-22fa-2fbb-0460a97eaf6a'
+dashboard_url = 'https://connect.posit.cloud/randyjohnson/content/019cc3b2-b33e-22fa-2fbb-0460a97eaf6a'
+direct_url = 'https://019cc3b2-b33e-22fa-2fbb-0460a97eaf6a.share.connect.posit.cloud'
+logs_url = 'https://connect.posit.cloud/randyjohnson/content/019cc3b2-b33e-22fa-2fbb-0460a97eaf6a/history'
+deployed_at = '2026-03-06T10:29:10-05:00'
+bundle_id = '019cc3c4-55bf-22f7-3bb2-046af7edb26c'
 files = [
-  '.posit/publish/Interactive Report- Airway Dat-K3L4.toml',
-  '.posit/publish/deployments/deployment-PAQB.toml',
-  'Airway_shiny.html',
+  '.posit/publish/Interactive Report- Airway Dat-BJRV.toml',
+  '.posit/publish/deployments/deployment-8MP4.toml',
   'Airway_shiny.qmd',
-  'Airway_shiny_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css',
-  'Airway_shiny_files/libs/bootstrap/bootstrap-icons.css',
-  'Airway_shiny_files/libs/bootstrap/bootstrap-icons.woff',
-  'Airway_shiny_files/libs/bootstrap/bootstrap.min.js',
-  'Airway_shiny_files/libs/clipboard/clipboard.min.js',
-  'Airway_shiny_files/libs/quarto-html/anchor.min.js',
-  'Airway_shiny_files/libs/quarto-html/axe/axe-check.js',
-  'Airway_shiny_files/libs/quarto-html/popper.min.js',
-  'Airway_shiny_files/libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css',
-  'Airway_shiny_files/libs/quarto-html/quarto.js',
-  'Airway_shiny_files/libs/quarto-html/tabsets/tabsets.js',
-  'Airway_shiny_files/libs/quarto-html/tippy.css',
-  'Airway_shiny_files/libs/quarto-html/tippy.umd.min.js',
   'renv.lock'
 ]
 
 [connect_cloud]
 account_name = 'randyjohnson'
-
-[deployment_error]
-code = 'unknown'
-message = 'Unable to render: Unable to render your content. Please check the logs for more information.'
-operation = 'publish/deployContent'
 
 [configuration]
 product_type = 'connect_cloud'
@@ -50,12 +31,10 @@ entrypoint = 'Airway_shiny.qmd'
 validate = true
 files = [
   '/Airway_shiny.qmd',
-  '/.posit/publish/Interactive Report- Airway Dat-K3L4.toml',
-  '/.posit/publish/deployments/deployment-PAQB.toml',
-  '/Airway_shiny_files',
-  '/Airway_shiny.html'
+  '/.posit/publish/Interactive Report- Airway Dat-BJRV.toml',
+  '/.posit/publish/deployments/deployment-8MP4.toml'
 ]
-title = 'Interactive Report: Airway Data2'
+title = 'Interactive Report: Airway Data'
 
 [configuration.r]
 version = '4.5.2'

@@ -8,11 +8,9 @@ entrypoint = 'Airway_shiny.qmd'
 validate = true
 files = [
   '/Airway_shiny.qmd',
-  '/.posit/publish/Interactive Report- Airway Dat-K3L4.toml',
-  '/.posit/publish/deployments/deployment-PAQB.toml',
-  '/Airway_shiny_files',
-  '/Airway_shiny.html'
+  '/.posit/publish/Interactive Report- Airway Dat-BJRV.toml',
+  '/.posit/publish/deployments/deployment-8MP4.toml'
 ]
-title = 'Interactive Report: Airway Data2'
+title = 'Interactive Report: Airway Data'
 
 [r]

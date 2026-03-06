@@ -43,7 +43,7 @@ sliderInput("thresh", "Significance threshold (adjusted p-value):",
 
 ```{r}
 #| echo: false
-plotOutput("volcanoPlot")
+plotly::plotlyOutput("volcanoPlot")
 ```
 
 ```{r}
@@ -54,22 +54,25 @@ library(plotly)
 
 top2000 <- read.csv("https://gist.githubusercontent.com/johnsonra/121eb61bf4b09e4258b78e341b1819e9/raw/9d4d1650713378ce59e06a21b62f940433100a81/top_2000.csv")
 
-output$volcanoPlot <- renderPlot({
+output$volcanoPlot <- renderPlotly({
   thresh <- input$thresh
 
-  top2000 |>
+  g <- top2000 |>
     mutate(nl10p = -log10(padj),
            sig = padj < thresh) |>
 
-    ggplot(aes(log2FoldChange, nl10p, color = sig)) +
+    ggplot(aes(log2FoldChange, nl10p, color = sig,
+               text = symbol)) +
     geom_point(alpha = 0.3) +
 
     scale_y_sqrt() +
     scale_color_manual(values = c('black', 'orange')) +
     theme_minimal() +
-    labs(x = bquote("log"[2] ~ "Fold Change"),
-         y = bquote("-log"[10] ~ "p"),
+    labs(x = "log<sub>2</sub> Fold Change",
+         y = "-log<sub>10</sub> p",
          color = paste("Adjusted p <", thresh))
+
+  ggplotly(g)
 })
 ```
 
